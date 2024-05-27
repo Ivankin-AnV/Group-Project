@@ -106,10 +106,10 @@ body {
     flex-wrap: wrap;
     gap: 16px;
   
-    margin-left: 313px;
+    margin-left: 325px;
     width: 6em;
-    width: 139px;
-    height: 101px;
+    width: 174px;
+    height: 110px;
     right: 851px;
     top: 583px;
     bottom: 116px;
@@ -132,8 +132,8 @@ body {
     margin-right: auto;
   
     width: 6em;
-    width: 139px;
-    height: 101px;
+    width: 174px;
+    height: 110px;
     top: 583px;
     bottom: 116px;
     padding: 1rem;
@@ -154,8 +154,8 @@ body {
     margin-right: auto;
   
     width: 6em;
-    width: 139px;
-    height: 101px;
+    width: 174px;
+    height: 110px;
     top: 583px;
     bottom: 116px;
     padding: 1rem;
@@ -177,8 +177,8 @@ body {
     margin-right: auto;
   
     width: 6em;
-    width: 139px;
-    height: 101px;
+    width: 174px;
+    height: 110px;
     top: 583px;
     bottom: 116px;
     padding: 1rem;
@@ -246,7 +246,11 @@ body {
   }
   
   /* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
-  
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
   
   .container_todo {
     position: relative;
