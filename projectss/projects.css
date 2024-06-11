@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .header {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  &__title {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 3rem;
+  }
+  
+  &__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(#000, .5);
+  }
+  
+  .navbar {
+    position: fixed;
+    z-index: 500;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    height: 70px;
+    display: flex;
+    align-items: center;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar_brand {
+      text-decoration: none;
+      color: #ffffffab;
+      font-weight: 700;
+      font-size: 1.5rem;
+      transition: all .09s ease-out;
+  &:hover {
+    color: #fff;
+    }
+  }
+  
+  .navbar__nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    
+    li {
+      display: inline-block;
+      
+      a {
+        padding: 7px;
+        color: #fff;
+        opacity: 0.7;
+        text-decoration: none;
+        font-weight: 400;
+        transition: all .09s ease-out;
+        
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  
+  .container-list {
+    width: 90%;
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .project-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  .project-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  .project-item h2 {
+    margin-top: 0;
+  }
+
+  .btn {
+    font-size: 20px;
+    text-decoration: none;
+    color: black
+  }
+
+  *,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
