@@ -104,17 +104,18 @@ body {
  font-size: 28px;
  font-weight: bold;
  color: white;
- padding: 25px 0 30px 25px;
+ padding: 25px 0 30px ;
  background: #333;
  border-bottom: 1px solid #370e3f;
  border: 1px solid #ddd;
  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+ text-align: center;
 }
 .center form{
  position: absolute;
  background: white;
  width: 100%;
- padding: 50px 10px 0 30px;
+ padding: 50px 10px 0 40px;
  box-sizing: border-box;
  border: 1px solid #ddd;
  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
