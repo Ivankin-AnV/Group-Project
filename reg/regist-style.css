@@ -108,6 +108,7 @@ body {
   padding: 15px 15px;
   border-radius: 0px;
   position: relative;
+  color: white;
   
   &::after {
     content: '';
@@ -149,15 +150,19 @@ body {
 }
 .btn-facebook {
   background-color: hsl(221, 44%, 41%);
+  color: white;;
 }
 .btn-twitter {
   background-color: hsl(206, 82%, 63%);
+  color: white;;
 }
 .btn-google {
   background-color: hsl(7, 71%, 55%); 
+  color: white;;
 }
 .btn-linkedin {
   background-color: hsl(196, 100%, 43%);
+  color: white;;
 }
 
 
