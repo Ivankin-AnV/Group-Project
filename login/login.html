@@ -1,39 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Login Form</title>
-        <link rel="stylesheet" href="login_style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-        <script src="../src/script-login.js"></script>
-    </head>
-    <body>
-        <nav id="navbar" class="navbar">
-            <div class="container">
-              <a href="../index3.html" class="navbar_brand">Project</a>
-              
-              <ul class="navbar__nav">
-                <li><a href="#"></a></li>
-                <li><a href="#">Войти </a></li>
-                <li><a href="#">|</a></li>
-                <li><a href="../reg/regist.html">Регистрация</a></li>
-              </ul>
-            </div>
-          </nav>
-        <div class="center">
-            <div class="header_login">
-            Вход
-            </div>
-            <form>
-            <input type="text" placeholder="Email или Логин">
-            <i class="far fa-envelope"></i>
-            <input id="pswrd" type="password" placeholder="Пароль">
-            <i  class="fas fa-lock" onclick="show()"></i>
-            <input type="submit" value="Войти">
-            <a href="#">Забыли проль?</a>
-            <a href="../reg/regist.html">Создать аккаунт</a>
-            </form>
-        </div>
-
-    </body>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <title>Вход</title>
+  <link rel="stylesheet" href="login_style.css">
+</head>
+<body>
+  <nav id="navbar" class="navbar">
+    <div class="container">
+      <a href="../index3.html" class="navbar_brand">Project</a>
+      
+      <ul class="navbar__nav">
+        <li><a href="#"></a></li>
+        <li><a href="#">Войти </a></li>
+        <li><a href="#">|</a></li>
+        <li><a href="../reg/regist.html">Регистрация</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container-login">
+    <h1>Вход</h1>
+    <form>
+      <input placeholder="Email или Логин" type="text" id="username" name="username" required>
+      <i class="far fa-envelope"></i>
+      <input placeholder="Пароль" type="password" id="password" name="password" required>
+      <i  class="fas fa-lock" onclick="show()"></i>
+      <button type="submit">Войти</button>
+      
+    </form>
+  <p><a class="reg" href="#">Забыли пароль?</a></p>
+  <p><a class="reg" href="../reg/regist.html">Создать аккаунт</a></p>
+  </div>
+</body>
 </html>

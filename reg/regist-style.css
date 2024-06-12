@@ -151,18 +151,22 @@ body {
 .btn-facebook {
   background-color: hsl(221, 44%, 41%);
   color: white;;
+  border-radius: 6px;
 }
 .btn-twitter {
   background-color: hsl(206, 82%, 63%);
   color: white;;
+  border-radius: 6px;
 }
 .btn-google {
   background-color: hsl(7, 71%, 55%); 
   color: white;;
+  border-radius: 6px;
 }
 .btn-linkedin {
   background-color: hsl(196, 100%, 43%);
   color: white;;
+  border-radius: 6px;
 }
 
 
@@ -202,6 +206,7 @@ body {
     font-weight: bold;
     border: 1px solid #ddd;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
   }
   
 }
@@ -223,6 +228,7 @@ Signup
   background: hsl(0, 0, 100);
   overflow: hidden;
   display: flex;
+  border-radius: 8px;
 }
 
 .signup-connect,
