@@ -118,6 +118,7 @@ body {
     border: 1px solid #ddd;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
+    border-radius: 8px;
   }
   
   .projects__list2 {
@@ -130,7 +131,6 @@ body {
     float: left;
     margin-left: 17px;
     margin-right: auto;
-  
     width: 6em;
     width: 174px;
     height: 110px;
@@ -140,6 +140,7 @@ body {
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   
   .projects__list3 {
@@ -152,7 +153,6 @@ body {
     float: left;
     margin-left: 17px;
     margin-right: auto;
-  
     width: 6em;
     width: 174px;
     height: 110px;
@@ -162,6 +162,7 @@ body {
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   
   
@@ -175,7 +176,6 @@ body {
     gap: 16px;
     margin-left: 17px;
     margin-right: auto;
-  
     width: 6em;
     width: 174px;
     height: 110px;
@@ -185,6 +185,7 @@ body {
     margin-bottom: 1rem;
     border: 1px solid #ddd;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   
   
@@ -193,7 +194,6 @@ body {
     display: grid;
     text-align: center;
     position: relative;
-    
     margin-left: auto;
     margin-right: auto;
     width: 6em; 
@@ -201,9 +201,9 @@ body {
     height: 312px;
     left: 8px;
     right: 8px;
-  
     border: 1px solid #ddd;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   
   
@@ -259,6 +259,7 @@ body {
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
   }
   
   h1 {
@@ -277,6 +278,7 @@ body {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 6px;
   }
   
   .taskList {
