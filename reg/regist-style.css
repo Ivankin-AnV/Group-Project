@@ -241,7 +241,7 @@ Signup
 }
 
 .signup-connect {
-  background: linear-gradient(134deg, #333, #333);
+  background: linear-gradient(134deg, );
   color: hsl(0, 0, 100);
   
   
@@ -251,7 +251,7 @@ Signup
     margin-top: 15px;
     margin-bottom: 40px;
     font-weight: bold;
-    color: white;
+    color: black;
   }
   
 }
