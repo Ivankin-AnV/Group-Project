@@ -195,7 +195,9 @@ padding: 10px 20px;
 border: none;
 border-radius: 5px;
 font-weight: bold;
-color: #4a54b1;
+background-color: #007BFF;
+color: white;
+
 cursor: pointer;
 margin-bottom: 20px;
 font-size: 0.9rem;
@@ -206,17 +208,16 @@ font-size: 0.9rem;
   border: none;
   border-radius: 5px;
   font-weight: bold;
-  color: #4a54b1;
-  cursor: pointer;
+  background-color: #007BFF;
+  color: white;
   display: block;
-  margin-left: 19%;
+  width: 129px;
   font-size: 0.9rem
-  
 }
 
-/* .btn-discuss:hover,.btn-team:hover {
-background-color: #4e4e4e;
-} */
+.btn-discuss:hover,.btn-team:hover {
+background-color: #0056b3;;
+}
 
 footer {
 
